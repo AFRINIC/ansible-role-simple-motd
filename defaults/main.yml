@@ -1,0 +1,5 @@
+---
+# defaults file for afrinic.motd
+
+motd_host_string:   "{{ inventory_hostname }}"
+motd_contact_email: "sysadmin-team@afrinic.net"

@@ -1,0 +1,7 @@
+---
+# tasks file for afrinic.motd
+
+- name: Write the MOTD file
+  template:
+    src: etc-motd.j2
+    dest: /etc/motd
